@@ -1,0 +1,29 @@
+.bg {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.progress {
+    width: 200px;
+    height: 16px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+
+/* 权重问题，单独设置.pro（权重10） 不起作用；需要使用.progress div(权重11) */
+
+.progress div {
+    height: 16px;
+    background-color: crimson;
+}
+
+.btn {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.btn button {
+    margin-left: 24px;
+}
